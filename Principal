@@ -9,16 +9,16 @@ public class Principal {
      * Complejidad temporal: O(1) Tiempo constante
      */
     public static void main(String[] args) {
-        Estudiante estudianteJuan = new Estudiante("Messi", 1987, 70, 55, 80);
-        Estudiante estudianteAna = new Estudiante("CristianoR", 1985, 40, 50, 70);
+        Estudiante estudianteMessi = new Estudiante("Messi", 1987, 70, 55, 80);
+        Estudiante estudianteCristianoR = new Estudiante("CristianoR", 1985, 40, 50, 70);
 
-        estudianteJuan.getAge();
-        System.out.println("La edad de Messi es de " + estudianteJuan.getAge() + " años");
-        estudianteJuan.getAvarage();
-        System.out.println("El promedio de las notas de Messi es de " + estudianteJuan.getAvarage());
-        estudianteAna.getAge();
-        System.out.println("La edad de CristianoR es de " + estudianteAna.getAge() + " años");
-        estudianteAna.getAvarage();
-        System.out.println("El promedio de las notas de CristianoR es de " + estudianteAna.getAvarage());
+        estudianteMessi.getAge();
+        System.out.println("La edad de Messi es de " + estudianteMessi.getAge() + " años");
+        estudianteMessi.getAvarage();
+        System.out.println("El promedio de las notas de Messi es de " + estudianteMessi.getAvarage());
+        estudianteCristianoR.getAge();
+        System.out.println("La edad de CristianoR es de " + estudianteCristianoR.getAge() + " años");
+        estudianteCristianoR.getAvarage();
+        System.out.println("El promedio de las notas de CristianoR es de " + estudianteCristianoR.getAvarage());
     }
 }
